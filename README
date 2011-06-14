@@ -1,0 +1,1 @@
+This is a project that consumes and aggregates a twitter stream using node.js, mongodb, socket.io and d3
