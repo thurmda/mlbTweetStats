@@ -1,1 +1,13 @@
-This is a project that consumes and aggregates a twitter stream using node.js, mongodb, socket.io and d3
+This is a project that consumes and aggregates a twitter stream using node.js, 
+mongodb, socket.io and d3.
+
+
+Update /lib/config.js with your twitter account info and your mongodb 
+connection info
+
+TODO:
+create npm package For now just be sure to use npm to install 
+dependancies = ['twitter-node', 'mongodb']
+
+
+
