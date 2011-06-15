@@ -1,0 +1,13 @@
+{ 
+	"name" : "TweetStats",
+    "description" : "A tool to consume and log tweets",
+    "version" : "0.0.1",
+    "dependencies": {
+        "mongodb": "0.9.x",
+        " twitter-node": "0.0.x"
+    	},
+    "repository" : { "type" : "git", 
+    				 "url" : "http://github.com/thurmda/mlbTweetStats.git" 
+                   }
+    , "engine" : "node >= 0.4.5"
+}
