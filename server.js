@@ -2,7 +2,7 @@ var TwitterNode = require('twitter-node').TwitterNode,
 	mongodb = require('mongodb'),
 	config = require('./lib/config.js'),
 	tweets, metrics, stream,
-	rxHashtags = /(#\w+)/gi,	  
+	rxHashtags = /(#\w+)/g,	  
 	txt2track = [];
 for(team in config.teams){
 	txt2track.push('#'+team);

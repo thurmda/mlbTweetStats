@@ -1,0 +1,33 @@
+body {font: 10px sans-serif;}
+a {
+  color: #00B7FF;}
+text{
+	fill: #eee;
+	font-size: 150%;
+	font-weight: bold;
+	text-shadow: 1px 1px #333;}
+
+#timeline {
+	margin: 0 0 14px;
+	overflow: hidden;}
+#timeline div {
+	background: #ccc;
+	border: 1px solid #333;
+	border-right: none;
+	float: left;
+	height: 20px;
+	width: 20px;}
+#timeline div:last-child {
+	border-right: 1px solid #333;}
+
+.logo {
+	background: url('../images/mlb-team-logos.png') no-repeat;
+	display:block;
+	width: 330px;
+	height: 220px;	
+}
+.yankees {background-position: -233px -13px;width: 25px;height: 25px;}
+.redsox {background-position: -287px -55px;width: 45px;height: 34px;}
+.rays {background-position: -10px -54px;width: 30px;height: 30px;}
+.bluejays {background-position: -62px -63px;width: 39px;height: 30px;}
+.orioles {background-position: -64px -98px;width: 36px;height: 30px;}
